@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+   transform: translate(1%, 70%);
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo1 img{
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s ease-in-out;
+    border-radius: 15px;
+}
+.logo2 img{
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s ease-in-out;
+    border-radius: 15px;
+}
+.logo3 img{
+    width: 200px;
+    height: 200px;
+    transition: all 0.8s ease-in-out;
+    border-radius: 15px;
+}
+.logo1{
+    width: 210px;
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 10px 0 #ccc;
+    height: 210px;
+    overflow-y: hidden;
+    border-radius: 15px;
+}
+.logo2{
+    width: 210px;
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 10px #ccc;
+    height: 210px;
+    overflow-y: hidden;
+    border-radius: 15px;
+}
+.logo3{
+    width: 210px;
+    border: 2px solid #ccc;
+    box-shadow: 0 10px 10px 0 #ccc;
+    height: 210px;
+    overflow-y: hidden;
+    border-radius: 15px;
+}
+.head2{
+    text-align: center;
+    transform: translateY(100px);
+    transform: translateX(0);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.para1{
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.head3{
+    text-align: center;
+    transform: translateY(100px);
+    transform: translateX(0);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.para2{
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.head4{
+    text-align: center;
+    transform: translateY(100px);
+    transform: translateX(0);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.para3{
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+.logo1:hover .img1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.logo1:hover .head2{
+    opacity: 1;
+    transform: translateY(-35px) translateX(-30px);
+}
+.logo1:hover .para1{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.logo2:hover .img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.logo2:hover .head3{
+    opacity: 1;
+    transform: translateY(-30px) translateX(-30px);
+}
+.logo2:hover .para2{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.logo3:hover .img3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.logo3:hover .head4{
+    opacity: 1;
+    transform: translateY(-30px) translateX(-30px);
+}
+.logo3:hover .para3{
+    opacity: 1;
+    transform: translateY(0px);
+}
+@media screen and (max-width: 400px) {
+    body{
+        transform: translate(0px, 40px);
+     }
+    .services{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
